@@ -16,6 +16,7 @@ export const TusPedidos = () => {
             <main style={{backgroundImage: `url(${bg_image})`}}>
 
                 <ShopList />
+                <Button/>
 
             </main>
 

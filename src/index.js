@@ -12,7 +12,7 @@ import {CrearProducto} from './pages/CrearProducto/pg_crearproducto.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CrearProducto/>
+    <TusPedidos/>
   </React.StrictMode>
 );
 

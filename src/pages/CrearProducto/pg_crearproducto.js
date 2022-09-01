@@ -15,7 +15,7 @@ export const CrearProducto = () => {
       <Header />
 
   <main style={{backgroundImage: `url(${bg_image})`}}>
-      <h1 style={{color:"white"}}>Crear Productor</h1><br/>
+      <h1 style={{color:"white"}}>Crear Producto</h1><br/>
 <ImageSelector/><br/>
 
       <TextInput/><br/>
