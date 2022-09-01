@@ -13,6 +13,7 @@ export const App = () => {
       <main>
         <BGImage value='1' />
         <Button />
+
       </main>
 
       <Footer />

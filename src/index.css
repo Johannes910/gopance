@@ -14,9 +14,9 @@ code {
 
 main {
 
-  background-image: url("./assets/images/bgimage1.png");
-  background-color: #cccccc;
-  height: 80vh;
+  background-image: url();
+  background-color: #000000;
+  height: 100vh;
   /* You must set a specified height */
   background-position: center;
   /* Center the image */
