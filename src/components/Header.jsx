@@ -2,7 +2,7 @@ import defaultpfp from "../assets/images/defaultpfp.png"
 
 export const Header = () => {
 
-	return(
+  return (
 
     <>
       <header className="p-3 text-bg-dark">
@@ -12,17 +12,17 @@ export const Header = () => {
             </a>
 
             <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="#" className="nav-link px-2 text-secondary">INICIO</a></li>
-              <li><a href="#" className="nav-link px-2 text-white">ALIMENTOS</a></li>
-              <li><a href="#" className="nav-link px-2 text-white">SERVICIOS</a></li>
-              <li><a href="#" className="nav-link px-2 text-white">TUS PEDIDOS</a></li>
+              <li><a href="#" className="nav-link px-5 text-secondary">INICIO</a></li>
+              <li><a href="#" className="nav-link px-5 text-white">ALIMENTOS</a></li>
+              <li><a href="#" className="nav-link px-5 text-white">SERVICIOS</a></li>
+              <li><a href="#" className="nav-link px-5 text-white">TUS PEDIDOS</a></li>
             </ul>
 
-            <div className="col-lg-3">
+            <div className="col-lg-4">
               <div className="input-group">
                 <input type="text" className="form-control" placeholder="¡Explora todos los productos!" />
                 <span className="input-group-btn">
-                  <button className="btn btn-outline-light me-2" type="button">BUSCAR</button>
+                  <button className="btn btn-outline-light me-5" type="button">BUSCAR</button>
 
                 </span>
               </div>
@@ -30,14 +30,14 @@ export const Header = () => {
 
 
             <div className="text-end">
-              
-            <div>
-              <img src={defaultpfp} position="relative" width="50px" height="50px" alt="pfp" />
-            </div>
 
+              <div>
+                <img src={defaultpfp} position="relative" width="50px" height="50px" alt="pfp" />
+              </div>
+
+            </div>
           </div>
         </div>
-         </div>
       </header>
 
     </>
