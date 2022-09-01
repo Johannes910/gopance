@@ -12,13 +12,13 @@ export const Login = () => {
     <>
 
       <Header />
-      <main style={{backgroundImage: `url(${bg_image})`}}>
-      <h1 style={{color:"white"}}>Iniciar Sesión</h1><br/>
-      <TextInput/><br/>
-      <TextInput/><br/>
-      <Button/>   
+      <main style={{ backgroundImage: `url(${bg_image})` }}>
+        <h1 style={{ color: "white" }}>Iniciar Sesión</h1><br />
+        <TextInput /><br />
+        <TextInput /><br />
+        <Button />
       </main>
-    
+
     </>
   )
 }

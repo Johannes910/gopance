@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {App} from './App';
+import { App } from './App';
 import reportWebVitals from './reportWebVitals';
-import {Login} from './pages/Login/pg_login.js';
+import { Login } from './pages/Login/pg_login.js';
+import { TusPedidos } from './pages/TusPedidos/pg_tuspedidos';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

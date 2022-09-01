@@ -4,7 +4,6 @@ import { Footer } from "./components/Footer.jsx"
 import { BGImage } from "./components/BGImage.jsx"
 import { Button } from "./components/Button.jsx"
 
-
 export const App = () => {
 
   return (
