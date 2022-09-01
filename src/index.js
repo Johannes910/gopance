@@ -7,11 +7,12 @@ import { Login } from './pages/Login/pg_login.js';
 import { TusPedidos } from './pages/TusPedidos/pg_tuspedidos';
 import {RegistroVendedor} from './pages/RegistroVendedor/pg_registrovendedor.js';
 import {RegistroUsuario} from './pages/RegistroUsuario/pg_registrousuario.js';
+import {CrearProducto} from './pages/CrearProducto/pg_crearproducto.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <CrearProducto/>
   </React.StrictMode>
 );
 

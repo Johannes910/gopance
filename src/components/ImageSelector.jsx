@@ -4,7 +4,7 @@ export const ImageSelector = () => {
 
     return (
         <>
-            <div class="container">
+            <div >
 
                 <img src={defaultpicture} class="img-rounded" position="relative" width="200px" height="200px" alt="imageselected" />
 
