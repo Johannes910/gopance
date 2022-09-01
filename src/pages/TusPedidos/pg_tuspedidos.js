@@ -13,8 +13,8 @@ export const TusPedidos = () => {
         <>
             <Header />
 
-            <main>
-                <BGImage value='1' />
+            <main style={{backgroundImage: `url(${bg_image})`}}>
+
                 <ShopList />
 
             </main>

@@ -1,4 +1,5 @@
 import defaultpfp from "../assets/images/defaultpfp.png"
+import gopancelogo from "../assets/images/gopancelogo.png"
 
 export const Header = () => {
 
@@ -12,6 +13,7 @@ export const Header = () => {
             </a>
 
             <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <img src={gopancelogo} position="relative" width="120px" height="34px" alt="" />
               <li><a href="#" className="nav-link px-5 text-secondary">INICIO</a></li>
               <li><a href="#" className="nav-link px-5 text-white">ALIMENTOS</a></li>
               <li><a href="#" className="nav-link px-5 text-white">SERVICIOS</a></li>
