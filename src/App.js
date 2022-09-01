@@ -1,13 +1,21 @@
 import React from 'react';
-import {Header} from "./components/Header.jsx"
-import {Footer} from "./components/Footer.jsx"
+import { Header } from "./components/Header.jsx"
+import { Footer } from "./components/Footer.jsx"
+import { BGImage } from "./components/BGImage.jsx"
+import { Button } from "./components/Button.jsx"
 
-export const App = () =>{
+export const App = () => {
 
   return (
-    <>  
-    <Header/>
-    <Footer/>
-      </>
-    )
+    <>
+      <Header />
+
+      <main>
+        <BGImage value='1' />
+        <Button />
+      </main>
+
+      <Footer />
+    </>
+  )
 }
