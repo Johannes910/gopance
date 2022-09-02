@@ -13,15 +13,15 @@ export const RegistroUsuario = () => {
     <>
       <Header />
 
-	<main style={{backgroundImage: `url(${bg_image})`}}>
-	    <h1 style={{color:"white"}}>Registrarse como Usuario</h1><br/>
+      <main style={{ backgroundImage: `url(${bg_image})` }}>
+        <h1 style={{ color: "white" }}>Registrarse como Usuario</h1><br />
 
-                <img src={defaultpfp} position="relative" width="100px" height="100px" alt="pfp" /><Button/><br/>
-      <TextInput/><br/>
-      <TextInput/><br/>
-            <TextInput/><br/>
-      <TextInput/><br/>
-        <Button />
+        <img src={defaultpfp} position="relative" width="100px" height="100px" alt="pfp" /><Button /><br />
+        <TextInput /><br />
+        <TextInput /><br />
+        <TextInput /><br />
+        <TextInput /><br />
+        <Button texto={"Registrarse"} />
 
       </main>
     </>

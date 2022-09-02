@@ -1,10 +1,10 @@
-export const Button = ({ value }) => {
+export const Button = ({ texto }) => {
 
 
     return (
         <>
             <div>
-                <button type="button" className="btn btn-warning">Cambiar a un value</button>
+                <button type="button" className="btn btn-warning">{texto}</button>
             </div>
         </>
 

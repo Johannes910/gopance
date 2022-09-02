@@ -13,10 +13,13 @@ export const TusPedidos = () => {
         <>
             <Header />
 
-            <main style={{backgroundImage: `url(${bg_image})`}}>
-
+            <main style={{ backgroundImage: `url(${bg_image})` }}>
+                <br />
                 <ShopList />
-                <Button/>
+                <br />
+                <Button texto={"Tarjeta o PSE"} />
+                <br />
+                <Button texto={"Efectivo"} />
 
             </main>
 

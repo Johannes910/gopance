@@ -5,17 +5,17 @@ import { App } from './App';
 import reportWebVitals from './reportWebVitals';
 import { Login } from './pages/Login/pg_login.js';
 import { TusPedidos } from './pages/TusPedidos/pg_tuspedidos';
-import {RegistroVendedor} from './pages/RegistroVendedor/pg_registrovendedor.js';
-import {RegistroUsuario} from './pages/RegistroUsuario/pg_registrousuario.js';
-import {CrearProducto} from './pages/CrearProducto/pg_crearproducto.js';
-import {Comidas} from './pages/Alimentos/pg_alimentos.js';
-import {Servicios} from './pages/Servicios/pg_servicios.js';
-
+import { RegistroVendedor } from './pages/RegistroVendedor/pg_registrovendedor.js';
+import { RegistroUsuario } from './pages/RegistroUsuario/pg_registrousuario.js';
+import { CrearProducto } from './pages/CrearProducto/pg_crearproducto.js';
+import { Comidas } from './pages/Alimentos/pg_alimentos.js';
+import { Servicios } from './pages/Servicios/pg_servicios.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Servicios/>
+    <Servicios />
+    <Login />
   </React.StrictMode>
 );
 

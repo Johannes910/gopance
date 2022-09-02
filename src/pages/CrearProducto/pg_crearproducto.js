@@ -14,15 +14,15 @@ export const CrearProducto = () => {
     <>
       <Header />
 
-  <main style={{backgroundImage: `url(${bg_image})`}}>
-      <h1 style={{color:"white"}}>Crear Producto</h1><br/>
-<ImageSelector/><br/>
+      <main style={{ backgroundImage: `url(${bg_image})` }}>
+        <h1 style={{ color: "white" }}>Crear Producto</h1><br />
+        <ImageSelector /><br />
 
-      <TextInput/><br/>
-      <TextInput/><br/>
-            <TextInput/><br/>
-      <TextInput/><br/>
-        <Button />
+        <TextInput /><br />
+        <TextInput /><br />
+        <TextInput /><br />
+        <TextInput /><br />
+        <Button texto={"Crear producto"} />
 
       </main>
     </>
