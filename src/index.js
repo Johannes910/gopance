@@ -8,13 +8,12 @@ import { TusPedidos } from './pages/TusPedidos/pg_tuspedidos';
 import { RegistroVendedor } from './pages/RegistroVendedor/pg_registrovendedor.js';
 import { RegistroUsuario } from './pages/RegistroUsuario/pg_registrousuario.js';
 import { CrearProducto } from './pages/CrearProducto/pg_crearproducto.js';
-import { Comidas } from './pages/Alimentos/pg_alimentos.js';
+import { Alimentos } from './pages/Alimentos/pg_alimentos.js';
 import { Servicios } from './pages/Servicios/pg_servicios.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Servicios />
     <Login />
   </React.StrictMode>
 );

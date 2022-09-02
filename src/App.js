@@ -17,10 +17,11 @@ export const App = () => {
         <p style={{ color: "white" }}>Nuestra App permite a todos los caleños disfrutar de la grán variedad de comidas y servicios que existen en Pueblito Pance!</p>
         <h2 style={{ color: "white" }}> Ingresa como</h2>
 
-        <Button texto={"Cliente"} /><br /><Button texto={"Vendedor"} />
-      </main>
+        <div className="input-group">
+          <Button texto={"Cliente"} /><Button texto={"Vendedor"} />
+        </div>
 
-      <Footer />
+      </main>
     </>
   )
 }

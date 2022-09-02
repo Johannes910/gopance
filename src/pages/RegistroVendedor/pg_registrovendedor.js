@@ -5,6 +5,7 @@ import { TextInput } from "../../components/TextInput.jsx"
 import { Button } from "../../components/Button.jsx"
 import bg_image from "../../assets/images/bgimage1.png"
 import defaultpfp from "../../assets/images/defaultpfp.png"
+import { ImageSelector } from '../../components/ImageSelector.jsx';
 
 
 export const RegistroVendedor = () => {
@@ -16,7 +17,7 @@ export const RegistroVendedor = () => {
       <main style={{ backgroundImage: `url(${bg_image})` }}>
         <h1 style={{ color: "white" }}>Registrarse como Vendedor</h1><br />
 
-        <img src={defaultpfp} position="relative" width="100px" height="100px" alt="pfp" /><Button /><br />
+        <img src={defaultpfp} position="relative" width="100px" height="100px" alt="pfp" /><ImageSelector /><br />
         <TextInput /><br />
         <TextInput /><br />
         <TextInput /><br />

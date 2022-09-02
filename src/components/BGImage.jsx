@@ -5,7 +5,7 @@ export const BGImage = ({ value }) => {
     return (
         <>
 
-            <main style={{backgroundImage: `url(${value === '1' ? bg_image : bg_image2})`}} position="relative" width="100%" height="100%" alt="bgimage1"/>
+            <main style={{ backgroundImage: `url(${value === '1' ? bg_image : bg_image2})` }} position="relative" width="100%" height="100%" alt="bgimage" />
 
         </>
     )
