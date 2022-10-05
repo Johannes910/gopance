@@ -1,0 +1,30 @@
+.linkmenu{
+	color: #ffe013;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:1.5rem;
+}
+
+.linkmenu:hover{
+	color: white;
+}
+
+.contai{
+	width:90%;
+	margin:auto;
+}
+
+.butncolor{
+
+  background-color: #f44336;
+   border: 2px solid red;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    width: 90%;
+
+}
+.butncolor:hover {
+    background-color: #ffe013;
+    color: black;
+}

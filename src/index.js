@@ -14,7 +14,7 @@ import { Servicios } from './pages/Servicios/pg_servicios.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Login />
+    <App />
   </React.StrictMode>
 );
 

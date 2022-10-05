@@ -2,7 +2,6 @@ import React from 'react';
 import { Header } from "../../components/Header.jsx"
 import { BGImage } from "../../components/BGImage.jsx"
 import { TextInput } from "../../components/TextInput.jsx"
-import { Button } from "../../components/Button.jsx"
 import bg_image from "../../assets/images/bgimage1.png"
 import defaultpfp from "../../assets/images/defaultpfp.png"
 import { ImageSelector } from '../../components/ImageSelector.jsx';
@@ -22,7 +21,7 @@ export const RegistroVendedor = () => {
         <TextInput /><br />
         <TextInput /><br />
         <TextInput /><br />
-        <Button texto={"Registrarse"} />
+        <button texto={"Registrarse"} />
 
       </main>
     </>
