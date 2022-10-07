@@ -1,0 +1,62 @@
+.divinputlog{
+	margin-left:40%;
+}
+
+.inputlog{
+	width:50%;
+	 border-radius: 30px;
+}
+
+.divcontainer{
+	width:59%;
+	padding-top:2%;
+}
+
+.img{
+	margin-left:15%;
+	margin-bottom:2%;
+}
+
+.btnlogin{
+	background-color: #ffe013; /* Green */
+   border: 2px solid yellow;
+    color: black;
+    padding: 0.5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    float: left;
+    border-radius: 30px;
+    width: 30%;
+    margin-right:7% ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:40%;
+    margin-top:1%
+}
+
+.btnlogin:hover {
+    background-color: #f44336;
+    color: white;
+    border:solid red
+}
+
+
+.rememberdiv{
+	margin-left:50%;
+	margin-top:2%;
+	color:white;
+}
+
+.parrafo{
+	margin-top:15%;
+	margin-left:49%;
+}
+
+h3{
+	color: white;
+	font-size: 4rem;
+	margin-left:38%;
+	margin-bottom:3%
+}

@@ -24,6 +24,7 @@
 .butn:hover {
     background-color: #ffe013;
     color: black;
+    border: solid yellow;
 }
 
 .divbutn{
