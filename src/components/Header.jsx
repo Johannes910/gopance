@@ -7,14 +7,14 @@ export const Header = () => {
   return (
 
     <>
-      <header className="p-3 text-bg-dark">
+      <header className="p-3 text-bg-dark header">
         <div className="contai">
           <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <a href="/" className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
             </a>
 
             <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <img src={gopancelogo} position="relative" width="120px" height="34px" alt="" />
+              <img src={gopancelogo} position="relative" width="120px" height="34px" alt="" className="imglogo"/>
               <li><a href="#" className="nav-link px-5 linkmenu">INICIO</a></li>
               <li><a href="#" className="nav-link px-5 linkmenu">ALIMENTOS</a></li>
               <li><a href="#" className="nav-link px-5 linkmenu">SERVICIOS</a></li>
