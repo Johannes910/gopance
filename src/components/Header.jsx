@@ -33,7 +33,9 @@ export const Header = () => {
             <div className="text-end">
 
               <div>
+              <button className="buttonLogoHeader">
                 <img src={defaultpfp} position="relative" width="50px" height="50px" alt="pfp" />
+              </button>
               </div>
 
             </div>
