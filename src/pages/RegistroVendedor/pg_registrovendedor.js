@@ -14,7 +14,7 @@ export const RegistroVendedor = () => {
       <Header />
 
       <main style={{ backgroundImage: `url(${bg_image})` }}>
-        <h1 style={{ color: "white" }}>Registrarse como Vendedor</h1><br />
+        <h1 style={{ color: "white" }}>Registrarse como vendedor</h1><br />
 
         <img src={defaultpfp} position="relative" width="100px" height="100px" alt="pfp" /><ImageSelector /><br />
         <TextInput /><br />
