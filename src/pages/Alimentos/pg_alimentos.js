@@ -15,8 +15,8 @@ export const Alimentos = () => {
       <Header />
 
       <main style={{ backgroundImage: `url(${bg_image})` }}>
-        <h1 style={{ color: "white" }}>Antojo de Algo?</h1><br />
-        <p style={{ color: "white" }}>Prueba la esencia de Pueblito Pance con las comidas y bebidas favoritas de sus visitantes!</p><br />
+        <h1 style={{ color: "white" }}>¿Antojo de algo?</h1><br />
+        <p style={{ color: "white" }}>¡Prueba la esencia de Pueblito Pance con las comidas y bebidas favoritas de sus visitantes!</p><br />
         <Card />
 
       </main>
