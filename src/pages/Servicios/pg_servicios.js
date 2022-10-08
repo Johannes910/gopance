@@ -13,13 +13,13 @@ export const Servicios = () => {
     <>
       <Header />
 
-	<main style={{backgroundImage: `url(${bg_image})`}}>
-	    <h1 style={{color:"white"}}>Que hay para hacer hoy?</h1><br/>
-      <p style={{color:"white"}}>Aprovecha nuestras recomendaciones y los productos más solicitados. Abajo puedes observar todos los servicios disponibles!</p><br/>
-      <Card />
-      
+      <main style={{ backgroundImage: `url(${bg_image})` }}>
+        <h1 style={{ color: "white" }}>Que hay para hacer hoy?</h1><br />
+        <p style={{ color: "white" }}>Aprovecha nuestras recomendaciones y los productos más solicitados. Abajo puedes observar todos los servicios disponibles!</p><br />
+        <Card />
+
       </main>
-      <Footer/>
+      <Footer />
 
     </>
   )
