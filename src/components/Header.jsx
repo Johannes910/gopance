@@ -1,12 +1,23 @@
+import "../css/header.css"
 import defaultpfp from "../assets/images/defaultpfp.png"
 import gopancelogo from "../assets/images/gopancelogo.png"
-import "../css/header.css"
+import { Route, Routes, NavLink } from 'react-router-dom'
+import { Alimentos } from "../pages/Alimentos/pg_alimentos"
+import { Servicios } from "../pages/Servicios/pg_servicios"
+import { TusPedidos } from "../pages/TusPedidos/pg_tuspedidos"
 
 export const Header = () => {
 
   return (
 
     <>
+
+      <Routes>
+        <Route path="alimentos" element={<Alimentos />} />
+        <Route path="servicios" element={<Servicios />} />
+        <Route path="pedidos" element={<TusPedidos />} />
+      </Routes>
+
       <header className="p-3 text-bg-dark header">
         <div className="contai">
           <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -14,11 +25,11 @@ export const Header = () => {
             </a>
 
             <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <img src={gopancelogo} position="relative" width="120px" height="34px" alt="" className="imglogo"/>
-              <li><a href="#" className="nav-link px-5 linkmenu">INICIO</a></li>
-              <li><a href="#" className="nav-link px-5 linkmenu">ALIMENTOS</a></li>
-              <li><a href="#" className="nav-link px-5 linkmenu">SERVICIOS</a></li>
-              <li><a href="#" className="nav-link px-5 linkmenu">TUS PEDIDOS</a></li>
+              <img src={gopancelogo} position="relative" width="120px" height="34px" alt="" className="imglogo" />
+              <NavLink className={(args) => `nav-link px-5 linkmenu ${args.isActive ? 'active' : ''} `} to="/">INICIO</NavLink>
+              <NavLink className={(args) => `nav-link px-5 linkmenu ${args.isActive ? 'active' : ''} `} to="alimentos">ALIMENTOS</NavLink>
+              <NavLink className={(args) => `nav-link px-5 linkmenu ${args.isActive ? 'active' : ''} `} to="servicios">SERVICIOS</NavLink>
+              <NavLink className={(args) => `nav-link px-5 linkmenu ${args.isActive ? 'active' : ''} `} to="pedidos">TUS PEDIDOS</NavLink>
             </ul>
 
             <div className="col-lg-4">
@@ -33,9 +44,9 @@ export const Header = () => {
             <div className="text-end">
 
               <div>
-              <button className="buttonLogoHeader">
-                <img src={defaultpfp} position="relative" width="50px" height="50px" alt="pfp" />
-              </button>
+                <button className="buttonLogoHeader">
+                  <img src={defaultpfp} position="relative" width="50px" height="50px" alt="pfp" />
+                </button>
               </div>
 
             </div>
