@@ -10,7 +10,7 @@ export const Header = () => {
 
     <>
 
-      <header className="p-3 text-bg-dark header">
+      <header className="p-3 header">
         <div className="contai">
           <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <a href="/" className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
@@ -36,9 +36,9 @@ export const Header = () => {
             <div className="text-end">
 
               <div>
-                <button className="buttonLogoHeader">
-                  <img src={defaultpfp} position="relative" width="50px" height="50px" alt="pfp" />
-                </button>
+              <NavLink className={(args) => `${args.isActive ? 'active' : ''} `} to="/login"> <img src={defaultpfp} position="relative" width="50px" height="50px" alt="pfp" /></NavLink>
+                 
+
               </div>
 
             </div>

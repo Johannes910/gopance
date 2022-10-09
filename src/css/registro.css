@@ -1,0 +1,77 @@
+
+.selectoRad{
+  border-radius:30px;
+}
+
+.h1{
+ margin-left:17.5%;
+}
+
+.imageSelector{
+	margin-left:32%;
+	width:106%;
+
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  margin-left: 35%;
+
+}
+
+.one {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+.two {
+  grid-column: 1/2;
+  grid-row: 1;
+}
+
+.imgComponent{
+	border-radius:30px;
+}
+
+
+.divinputreg{
+	margin-left:35%;
+	margin-top:1%;
+}
+
+.inputreg{
+	width:46%;
+	 border-radius: 30px;
+}
+
+.divcontainerRe{
+	width:100%;
+
+}
+
+.btnregister{
+	background-color: #ffe013; 
+   border: 2px solid yellow;
+    color: black;
+    padding: 0.5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    float: left;
+    border-radius: 30px;
+    width: 30%;
+    margin-right:7% ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:35%;
+    margin-top:1%
+}
+
+.btnregister:hover {
+    background-color: #f44336;
+    color: white;
+    border:solid red
+}

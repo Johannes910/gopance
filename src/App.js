@@ -7,6 +7,7 @@ import { Servicios } from "./pages/Servicios/pg_servicios"
 import { TusPedidos } from "./pages/TusPedidos/pg_tuspedidos"
 import { RegistroUsuario } from './pages/RegistroUsuario/pg_registrousuario';
 import { RegistroVendedor } from './pages/RegistroVendedor/pg_registrovendedor';
+import {Login} from './pages/Login/pg_login.js'
 
 export const App = () => {
 
@@ -21,6 +22,7 @@ export const App = () => {
         <Route path="pedidos" element={<TusPedidos />} />
         <Route path="registrarcliente" element={<RegistroUsuario />} />
         <Route path="registrarvendedor" element={<RegistroVendedor />} />
+        <Route path="login" element={<Login />} />
       </Routes>
 
     </>

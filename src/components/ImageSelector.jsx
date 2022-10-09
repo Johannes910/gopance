@@ -3,12 +3,10 @@ export const ImageSelector = () => {
 
     return (
         <>
-            <div >
-                <div class="col-lg-3">
-                    <label for="formFile" class="form-label"></label>
-                    <input class="form-control" type="file" id="formFile" />
-                </div>
-            </div>
+
+                    <label for="formFile" className="form-label"></label>
+                    <input className="form-control selectorRad" type="file" id="formFile" />
+
         </>
     )
 }
