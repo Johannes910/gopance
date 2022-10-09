@@ -2,7 +2,7 @@ import React from 'react';
 import { Header } from "../../components/Header.jsx"
 import { BGImage } from "../../components/BGImage.jsx"
 import { TextInput } from "../../components/TextInput.jsx"
-import bg_image from "../../assets/images/RegistroUsuario.jpeg"
+import bg_image from "../../assets/images/RegistroUsuario.png"
 import defaultpfp from "../../assets/images/defaultpfp.png"
 import { ImageSelector } from '../../components/ImageSelector.jsx';
 
@@ -14,8 +14,8 @@ export const RegistroUsuario = () => {
       <Header />
 
   <main style={{ backgroundImage: `url(${bg_image})` }}>
-  <div className="h1">
-    <h1 style={{ color: "white" }} >Registrarse como vendedor</h1><br />
+  <div className="h1Us">
+    <h1 style={{ color: "white" }} >Registrarse como cliente</h1><br />
   </div>
  
 
