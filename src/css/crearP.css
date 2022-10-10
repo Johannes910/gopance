@@ -1,0 +1,80 @@
+
+.selectoRad{
+  border-radius:30px;
+}
+
+.h1Cre{
+ margin-left:32%;
+}
+
+
+.imageSelectorPu{
+	margin-left:0%;
+	width:40%;
+
+}
+
+
+
+.divinputcre{
+	margin-left:35%;
+	margin-top:1%;
+}
+
+
+.inputcre{
+	width:70%;
+	 border-radius: 30px;
+}
+
+.divcontainerRe{
+	width:100%;
+
+}
+
+.btnregisterPu{
+	background-color: #ffe013; 
+   border: 2px solid yellow;
+    color: black;
+    padding: 0.5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    float: left;
+    border-radius: 30px;
+    width: 30%;
+    margin-right:7% ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:34%;
+    margin-top:4%
+}
+
+.btnregister:hover {
+    background-color: #f44336;
+    color: white;
+    border:solid red
+}
+
+
+
+.parentCre {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1Cre { grid-area: 1 / 1 / 2 / 2; }
+.div2Cre { 
+  margin-left:20%;
+  grid-area: 1 / 2 / 2 / 3; }
+
+.formPu{
+  margin-left:37%;
+  margin-top:1%;
+  color:white;
+  font-size:1.2rem;
+}

@@ -2,12 +2,8 @@ import React from 'react';
 import { Header } from '../../components/Header.jsx';
 import { Footer } from '../../components/Footer.jsx';
 import bg_image from "../../assets/images/bgimageinicio.png"
-import defaultpfp from "../../assets/images/defaultpfp.png"
 import gopancelogo from "../../assets/images/gopancelogo.png"
 import { useNavigate } from "react-router-dom";
-import { Widget } from 'react-chat-widget';
-import 'react-chat-widget/lib/styles.css';
-import "../../css/chat.css"
 
 export const Inicio = () => {
 
@@ -20,11 +16,6 @@ export const Inicio = () => {
     const rutaRegistrarVendedor = () => {
         navigate('/registrarvendedor');
     }
-
-    const handleNewUserMessage = (newMessage) => {
-        console.log(`New message incoming! ${newMessage}`);
-    };
-
 
     return (
         <>
@@ -39,14 +30,6 @@ export const Inicio = () => {
 
                     <div className="divbutn">
                         <button type="button" className="butn" onClick={rutaRegistrarCliente}>Cliente</button><button type="button" className="butn" onClick={rutaRegistrarVendedor}> Vendedor</button>
-                        <Widget
-                            handleNewUserMessage={handleNewUserMessage}
-                            profileAvatar={gopancelogo}
-                            title="¡Hola de parte de GoPance!"
-                            subtitle="Contacta a uno de nuestros asesores"
-                            profileClientAvatar={defaultpfp}
-                            emojis={true}
-                        />
                     </div>
                 </div>
             </main>

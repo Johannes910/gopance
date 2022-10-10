@@ -1,0 +1,45 @@
+.h4{
+	font-size:2rem;
+	color:black;
+}
+
+.p{
+	font-size:1rem;
+	width:100%;
+	color:black;
+
+}
+
+.pbutton{
+
+	width:100%;
+
+}
+
+.divcenter{
+	text-align:center;
+	padding:2%;
+	padding-top: 10%;
+}
+
+.divCard{
+
+	background-color:white;
+	border-radius: 15px;
+}
+
+.btnmas{
+	background-color:red;
+	border:solid red;
+}
+
+
+.btnmas:hover{
+	background-color: yellow;
+	border:solid yellow;
+	color:black
+}
+
+.bold{
+	color:black;
+}
