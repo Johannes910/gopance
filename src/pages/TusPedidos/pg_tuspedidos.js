@@ -17,24 +17,24 @@ export const TusPedidos = () => {
             <main className="mainPed">
                 <br />
                 <ShopList />
-                <div className= "parentPe divPago">\
+                <div className="parentPe divPago">\
 
-                <div className="div1Pe"> <img src= {mapaejemplo} className= "mapaImg"></img><b className= "bDire">Buscar por dirección</b> 
+                    <div className="div1Pe"> <img src={mapaejemplo} className="mapaImg"></img><b className="bDire">Buscar por dirección</b>
 
-                 <div className="form-floating divInputPe">
-                  <input type="text" className="form-control inputDire" id="floatingDirePe" placeholder="DirePe"/>
-                  <label for="floatingPassword">Direccion de destino</label>
-                  </div>
-                </div>
-                <div className="div2Pe">
-                <b className="ptotal">$165.000</b>
-                 <button className="btnPagos" type="submit">Tarjeta o PSE</button>
+                        <div className="form-floating divInputPe">
+                            <input type="text" className="form-control inputDire" id="floatingDirePe" placeholder="DirePe" />
+                            <label for="floatingPassword">Dirección de destino</label>
+                        </div>
+                    </div>
+                    <div className="div2Pe">
+                        <b className="ptotal">$165.000</b>
+                        <button className="btnPagos" type="submit">Tarjeta o PSE</button>
 
-                <button className="btnPagos" type="submit">Efectivo</button> </div>
+                        <button className="btnPagos" type="submit">Efectivo</button> </div>
 
-               
 
-               
+
+
                 </div>
 
             </main>
