@@ -1,0 +1,26 @@
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #ffe013;
+}
+
+#customers td, #customers th {
+  border: 5px solid black;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #ffe013;}
+
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+
+  color: black;
+}
+
+.imgPedi{
+	width:10%;
+}

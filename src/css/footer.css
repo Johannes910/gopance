@@ -1,0 +1,54 @@
+.footerdiv{
+	position:fixed;
+	background-color:#ffe013;
+    justify-content: center;
+    bottom: 0%;
+  width: 100%;
+  height: 10%;
+
+}
+
+.parentFoo {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1Foo {
+	padding-top:5%; 
+	grid-area: 1 / 1 / 2 / 2; }
+.div2Foo { grid-area: 1 / 2 / 2 / 3; }
+.div3Foo { 
+	margin-top:2%;
+	margin-left:60%;
+	grid-area: 1 / 3 / 2 / 4; }
+
+
+
+.imgCarrito{
+	margin-top:-5%;
+	width:10%;
+	margin-left:10%;
+	margin-right:3%;
+}
+
+.imgLogo{
+	margin-left:48%;
+	width:17%;
+}
+
+.bTatiana{
+	font-size:2rem;
+}
+
+.pbalance{
+    color:black;
+    text-align:right;
+}
+
+.bdinero{
+	text-align:right;
+
+}

@@ -1,21 +1,21 @@
 import bg_image from "../assets/images/defaultpicture.jpg"
+import '../css/card.css'
 
-export const Card = ({ value }) => {
+export const Card = ({ valueImg,valueTitle,valueParrafo,valuePrecio,valueRestaurant }) => {
 
     return (
         <>
-            <div className="row">
-                <div className="col-sm-6 col-md-4">
-                    <div className="thumbnail">
-                        <img src={bg_image} position="relative" width="200px" height="200px" alt="Descripción del producto" />
+ 
+                    <div className="thumbnail divCard divcenter">
+                        <img src={valueImg} position="relative" width="200px" height="200px" alt="Descripción del producto" />
                         <div className="caption">
-                            <h3 style={{ color: "white" }}>Thumbnail label</h3>
-                            <p>...</p>
-                            <p><a href="#" className="btn btn-primary" role="button">Button</a> <a href="#" className="btn btn-default" role="button">Button</a></p>
+                            <h4 className="h4">{valueTitle}</h4>
+                            <p className="p">{valueParrafo}</p>
+                            <u><b>{valueRestaurant}</b></u>
+                            <p className="pbutton"><b className= "bold">{valuePrecio}</b> <a href="#" className="btn btn-primary btnmas" role="button">+</a></p>
                         </div>
                     </div>
-                </div>
-            </div>
+
         </>
 
     )

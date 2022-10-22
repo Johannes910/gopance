@@ -37,8 +37,6 @@
     position: sticky;
     top: 0px;
     z-index: 1;
+    background:black;
 }
 
-.buttonLogoHeader{
-	border-radius:00%;
-}

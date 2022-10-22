@@ -1,18 +1,26 @@
+import '../css/footer.css'
+import logoImg from '../assets/images/gopancelogo2.png'
+import carrito from '../assets/images/carrito.png'
+
+
 export const Footer = () => {
 
   return (
 
     <>
-      <div className="container">
-        <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <p>¡Feliz compra, Tatiana!</p>
-          <ul className="nav col-md-4 justify-content-end">
-            <li className="nav-item"><p>Tu balance</p><p>$250.000 COP</p></li>
-          </ul>
-        </footer>
-      </div>
-    </>
+      <footer className="footerdiv">
+        <div className="parentFoo">
+          <div className="div1Foo"><img src={carrito} className="imgCarrito"></img><b className="bTatiana">Feliz compra, Perafán</b></div>
+          <div className="div2Foo"><img src={logoImg} className="imgLogo"></img> </div>
+          <div className="div3Foo"><p className="pbalance">Tu balance <br /><b className="bdinero">$253.000</b></p> </div>
 
+        </div>
+
+
+      </footer>
+
+
+    </>
 
   )
 }

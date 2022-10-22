@@ -1,0 +1,42 @@
+.rcw-conversation-container>.rcw-header {
+    background-color: #fc2929;
+}
+
+.rcw-message>.rcw-response {
+    background-color: black;
+    color: white;
+}
+
+.rcw-client .rcw-message-text {
+    background-color: #ffd230;
+    border-radius: 10px;
+    max-width: 215px;
+    padding: 15px;
+    text-align: justify;
+    white-space: pre-wrap;
+    word-wrap: break-word
+}
+
+.rcw-launcher {
+    -webkit-animation-delay: 0;
+    -webkit-animation-duration: .5s;
+    -webkit-animation-name: slide-in;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-delay: 0;
+    -moz-animation-duration: .5s;
+    -moz-animation-name: slide-in;
+    -moz-animation-fill-mode: forwards;
+    animation-delay: 0;
+    animation-duration: .5s;
+    animation-name: slide-in;
+    animation-fill-mode: forwards;
+    align-self: flex-end;
+    background-color: #ffd230;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px 1px #b5b5b5;
+    height: 60px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 60px
+}
