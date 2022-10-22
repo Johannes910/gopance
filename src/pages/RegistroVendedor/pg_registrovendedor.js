@@ -12,7 +12,7 @@ export const RegistroVendedor = () => {
 
  return (
   <>
-  <Header />
+
 
 
   <main style={{ backgroundImage: `url(${bg_image})` }}>
