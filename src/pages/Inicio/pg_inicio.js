@@ -35,10 +35,9 @@ export const Inicio = () => {
                     <img src={gopancelogo} position="relative" /><br /><br />
                     <h1 >¡Tu mejor opción para pedir!</h1>
                     <p >¡Nuestra App permite a todos los caleños disfrutar de la grán variedad de comidas y servicios que existen en Pueblito Pance!</p>
-                    <h2> Registrarse como</h2>
+
 
                     <div className="divbutn">
-                        <button type="button" className="butn" onClick={rutaRegistrarCliente}>Cliente</button><button type="button" className="butn" onClick={rutaRegistrarVendedor}> Vendedor</button>
                         <Widget
                             handleNewUserMessage={handleNewUserMessage}
                             profileAvatar={gopancelogo}
