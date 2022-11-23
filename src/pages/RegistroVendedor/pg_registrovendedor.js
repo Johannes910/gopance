@@ -49,9 +49,6 @@ export const RegistroVendedor = () => {
 
 
   <div className="wrapper">
-  <div className="one">
-  <img src={defaultpfp} position="relative" width="100px" height="100px" alt="pfp" /> 
-  </div>
 
   <div className="two imageSelector">
   <ImageSelector />
