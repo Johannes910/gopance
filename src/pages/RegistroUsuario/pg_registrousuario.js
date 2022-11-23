@@ -8,12 +8,13 @@ import { ImageSelector } from '../../components/ImageSelector.jsx';
 import { useState } from "react";
 import {collection, getDocs, getFirestore, addDoc, doc, deleteDoc, getDoc, setDoc} from "firebase/firestore";
 import {useEffect} from 'react';
-import {db, app} from '../../firebase/firebaseConfig';
+import {db, app, storage} from '../../firebase/firebaseConfig';
 import { setUserId } from 'firebase/analytics';
 import userEvent from '@testing-library/user-event';
 
 
 export const RegistroUsuario = () => {
+
 
 
   const initialStateValues = {correo:'',contrasenia: '',celular:'',nombre:''};
@@ -49,12 +50,14 @@ export const RegistroUsuario = () => {
 
 
         <div className="wrapper">
-          <div className="one">
+          {/* <div className="one">
             <img src={defaultpfp} position="relative" width="100px" height="100px" alt="pfp" />
-          </div>
+          </div> */}
 
           <div className="two imageSelector">
-            <ImageSelector />
+
+            <ImageSelector/>
+
           </div>
         </div>
         <div className="divcontainerRe">
