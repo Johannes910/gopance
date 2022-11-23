@@ -28,6 +28,7 @@ export const Inicio = () => {
 
     return (
         <>
+
             <Header />
 
             <main style={{ backgroundImage: `url(${bg_image})` }}>
@@ -37,16 +38,7 @@ export const Inicio = () => {
                     <p >¡Nuestra App permite a todos los caleños disfrutar de la grán variedad de comidas y servicios que existen en Pueblito Pance!</p>
 
 
-                    <div className="divbutn">
-                        <Widget
-                            handleNewUserMessage={handleNewUserMessage}
-                            profileAvatar={gopancelogo}
-                            title="¡Hola de parte de GoPance!"
-                            subtitle="Contacta a uno de nuestros asesores"
-                            profileClientAvatar={defaultpfp}
-                            emojis={true}
-                        />
-                    </div>
+
                 </div>
             </main>
         </>
