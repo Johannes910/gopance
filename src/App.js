@@ -9,6 +9,8 @@ import { RegistroUsuario } from './pages/RegistroUsuario/pg_registrousuario';
 import { RegistroVendedor } from './pages/RegistroVendedor/pg_registrovendedor';
 import {Login} from './pages/Login/pg_login.js'
 import {CrearProducto} from './pages/CrearProducto/pg_crearproducto.js'
+import {app} from './firebase/firebaseConfig';
+import { useState } from "react";
 
 export const App = () => {
 
