@@ -7,35 +7,52 @@ import bg_image from "../../assets/images/bgimageiniciosesion.png"
 import gopancelogo from "../../assets/images/gopancelogo.png"
 import { useNavigate } from "react-router-dom";
 import "../../css/login.css"
-
+import {collection, getDocs} from "firebase/firestore";
+import {useEffect} from 'react';
+import {db, app} from '../../firebase/firebaseConfig';
 
 export const Login = () => {
 
-  const [mail, setMail] = useState("")
-  const [passwd, setPasswd] = useState("")
 
-  const navigate = useNavigate();
+  //TEST DE CONECCION CON LA BASE DE DATOS
 
-  const onInputChangeMail = (event) => {
-    setMail(event.target.value)
-  }
+  // useEffect(() =>{
+  //   const obtenerDatos = async() =>{
+  //     const datos = await getDocs(collection(db,'usuarios'));
+  //     console.log(datos.docs[0].data());
+  //   }
 
-  const onInputChangePasswd = (event) => {
-    setPasswd(event.target.value)
-  }
+  //   obtenerDatos();
 
-  const CheckLogin = (event) => {
-    event.preventDefault();
-    if (mail == "perafan@hotmail.com" && passwd == "perafan123") {
-      console.log("Login correcto, ¡hola PERAFÁN!.")
-      navigate('/pedidos');
-    }
-    else {
-      console.log("Login falso, intenta nuevamente.")
-      window.alert('Ingreso incorrecto. Usa "perafan@hotmail.com" como correo y "perafan123" como contraseña.')
-      navigate('/login');
-    }
-  }
+
+  // },[]);
+
+
+  // const [mail, setMail] = useState("")
+  // const [passwd, setPasswd] = useState("")
+
+const navigate = useNavigate();
+
+  // const onInputChangeMail = (event) => {
+  //   setMail(event.target.value)
+  // }
+
+  // const onInputChangePasswd = (event) => {
+  //   setPasswd(event.target.value)
+  // }
+
+  // const CheckLogin = (event) => {
+  //   event.preventDefault();
+  //   if (mail == "perafan@hotmail.com" && passwd == "perafan123") {
+  //     console.log("Login correcto, ¡hola PERAFÁN!.")
+  //     navigate('/pedidos');
+  //   }
+  //   else {
+  //     console.log("Login falso, intenta nuevamente.")
+  //     window.alert('Ingreso incorrecto. Usa "perafan@hotmail.com" como correo y "perafan123" como contraseña.')
+  //     navigate('/login');
+  //   }
+  // }
 
 
 
@@ -61,16 +78,17 @@ export const Login = () => {
           <img src={gopancelogo} position="relative" className="img" />
           <h3>Iniciar sesión</h3>
 
+          <form>
           <div className="form-floating divinputlog">
 
-            <input type="email" className="form-control inputlog" id="floatingInput" placeholder="name@example.com" onChange={(event) => onInputChangeMail(event)} />
+            <input type="email" className="form-control inputlog" id="floatingInput" placeholder="name@example.com" required />
             <label for="floatingInput">Email address</label>
           </div>
           <div className="form-floating divinputlog">
-            <input type="password" className="form-control inputlog" id="floatingPassword" placeholder="Password" onChange={(event) => onInputChangePasswd(event)} />
+            <input type="password" className="form-control inputlog" id="floatingPassword" placeholder="Password" required />
             <label for="floatingPassword">Password</label>
           </div>
-
+          </form>
 
           <div className="checkbox mb-3 divinputlog rememberdiv">
             <label>
@@ -78,7 +96,7 @@ export const Login = () => {
             </label>
           </div>
 
-          <button className="btnlogin" type="submit" onClick={(event) => CheckLogin(event)}>Sign in</button>
+          <button className="btnlogin" type="submit" >Sign in</button>
           <p className="regisH"> Registrarse como</p>
 
                     <div className="divbutn btnRegisLog">
