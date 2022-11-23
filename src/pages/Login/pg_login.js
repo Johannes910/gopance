@@ -8,7 +8,6 @@ import gopancelogo from "../../assets/images/gopancelogo.png"
 import { useNavigate } from "react-router-dom";
 import "../../css/login.css"
 
-
 export const Login = () => {
 
   const [mail, setMail] = useState("")
@@ -37,23 +36,10 @@ export const Login = () => {
     }
   }
 
-
-
-    const rutaRegistrarCliente = () => {
-        navigate('/registrarcliente');
-    }
-
-    const rutaRegistrarVendedor = () => {
-        navigate('/registrarvendedor');
-    }
-
-    const handleNewUserMessage = (newMessage) => {
-        console.log(`New message incoming! ${newMessage}`);
-    };
-
   return (
     <>
 
+      <Header />
       <main style={{ backgroundImage: `url(${bg_image})` }}>
 
         <div className="divcontainer">
@@ -79,11 +65,6 @@ export const Login = () => {
           </div>
 
           <button className="btnlogin" type="submit" onClick={(event) => CheckLogin(event)}>Sign in</button>
-          <p className="regisH"> Registrarse como</p>
-
-                    <div className="divbutn btnRegisLog">
-                        <button type="button" className="butn" onClick={rutaRegistrarCliente}>Cliente</button><button type="button" className="butn" onClick={rutaRegistrarVendedor}> Vendedor</button>
-                </div>
           <div className="parrafo">
             <p className="mt-5 mb-3 text-muted">&copy; 1998–2022</p>
           </div>

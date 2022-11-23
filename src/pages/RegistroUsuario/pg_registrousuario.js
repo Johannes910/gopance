@@ -11,6 +11,7 @@ export const RegistroUsuario = () => {
 
   return (
     <>
+      <Header />
 
       <main style={{ backgroundImage: `url(${bg_image})` }}>
         <div className="h1Us">
