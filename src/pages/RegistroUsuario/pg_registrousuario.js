@@ -17,7 +17,7 @@ export const RegistroUsuario = () => {
 
 
 
-  const initialStateValues = {correo:'',contrasenia: '',celular:'',nombre:''};
+  const initialStateValues = {correo:'',contrasenia: '',celular:'',nombre:'', tipo:'usuario'};
 
   const [registro, setRegistro] = useState(initialStateValues);
 
@@ -32,7 +32,9 @@ export const RegistroUsuario = () => {
     try {
       await addDoc(collection(db,'usuarios'),{
         ...registro
+        
       })
+      window.alert('Registro exitoso!.')
     } catch (error) {
       console.log(error);
     }
@@ -66,20 +68,20 @@ export const RegistroUsuario = () => {
 
         <form onSubmit={addUserDb}>
           <div className="form-floating divinputreg">
-            <input type="text" className="form-control inputreg" id="floatingName" placeholder="Name" name="nombre" onChange={capturarInputs} />
+            <input type="text" className="form-control inputreg" id="floatingName" placeholder="Name" name="nombre" onChange={capturarInputs} required />
             <label for="floatingName">Nombre y Apellido</label>
           </div>
           <div className="form-floating divinputreg">
-            <input type="email" className="form-control inputreg" id="floatingInput" placeholder="name@example.com" name="correo" onChange={capturarInputs} />
+            <input type="email" className="form-control inputreg" id="floatingInput" placeholder="name@example.com" name="correo" onChange={capturarInputs}required />
             <label for="floatingInput">Correo electrónico</label>
           </div>
           <div className="form-floating divinputreg">
-            <input type="password" className="form-control inputreg" id="floatingPassword" placeholder="Password" name="contrasenia" onChange={capturarInputs} />
+            <input type="password" className="form-control inputreg" id="floatingPassword" placeholder="Password" name="contrasenia" onChange={capturarInputs} required/>
             <label for="floatingPassword">Contraseña</label>
           </div>
 
           <div className="form-floating divinputreg">
-            <input type="text" className="form-control inputreg" id="floatingCel" placeholder="Movil" name="celular" onChange={capturarInputs} />
+            <input type="text" className="form-control inputreg" id="floatingCel" placeholder="Movil" name="celular" onChange={capturarInputs} required/>
             <label for="floatingCel">Celular</label>
           </div>
           <button className="btnregister" type="submit">Registrarse</button>
