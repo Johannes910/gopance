@@ -51,6 +51,7 @@ export const ImageSelector = () => {
                     src={profileFinal.length ? profileFinal:img}
                     />
                     
+                    
                     <Dialog 
                     visible={imageCrop}
                     header={() => (
@@ -89,7 +90,7 @@ export const ImageSelector = () => {
 
                     </div>
                     </Dialog>
-                
+                    
                 </div>
             </div>
         

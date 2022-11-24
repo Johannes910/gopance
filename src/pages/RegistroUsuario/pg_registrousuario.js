@@ -59,13 +59,15 @@ export const RegistroUsuario = () => {
           <div className="two imageSelector">
 
             <ImageSelector/>
-
+          
           </div>
+          <p>Click en el icono para subir una imagen.</p>
         </div>
         <div className="divcontainerRe">
 
 
         <form onSubmit={addUserDb}>
+        
           <div className="form-floating divinputreg">
             <input type="text" className="form-control inputreg" id="floatingName" placeholder="Name" name="nombre" onChange={capturarInputs} required />
             <label for="floatingName">Nombre y Apellido</label>

@@ -54,6 +54,7 @@ export const RegistroVendedor = () => {
   <div className="two imageSelector">
   <ImageSelector />
   </div> 
+  <p>Click en el icono para subir una imagen.</p>
   </div>
   <div className="divcontainerRe">
 
